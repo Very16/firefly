@@ -1,0 +1,5 @@
+#PHEROMONE WEIGHT
+pheromones_weight = np.ones(shape=(dim_kunang,dim_kunang)) = tau_awal
+np.fill_diagonal(pheromones_weight,0)
+pheremones_weight = pd.DataFrame(pheremones_weight)
+pheromones_weight.hed()
